@@ -29,7 +29,6 @@ def collatz_read(s):
 # collatz_eval
 # ------------
 
-
 def collatz_eval(i, j):
     """
     i the beginning of the range, inclusive
@@ -44,6 +43,8 @@ def collatz_eval(i, j):
         j = temp
 
     max_cycle = 0
+    cache = {}
+
     for k in range(i, j + 1):
         num = k
         cycle = 1
@@ -53,9 +54,14 @@ def collatz_eval(i, j):
                 num /= 2
             else:
                 num = (3 * num) + 1
+
+            if num in cache.keys():
+                cycle += cache[num]
+                break
+
             cycle += 1
 
-        assert num == 1
+        cache[k] = cycle
 
         if cycle > max_cycle:
             max_cycle = cycle
