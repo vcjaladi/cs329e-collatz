@@ -37,10 +37,11 @@ def collatz_eval(i, j):
     """
     assert i > 0
 
+    # switch the numbers if they are out of order
     if j < i:
         temp = i
         i = j
-        j = temp
+        j = tempc
 
     max_cycle = 0
     cache = {}
@@ -55,12 +56,14 @@ def collatz_eval(i, j):
             else:
                 num = (3 * num) + 1
 
+            # refer to the cache if the number has already been computed
             if num in cache.keys():
                 cycle += cache[num]
                 break
 
             cycle += 1
 
+        # save to the cache
         cache[k] = cycle
 
         if cycle > max_cycle:

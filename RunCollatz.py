@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
 
 
-% cat RunCollatz.out
+% cat RunCollatz.outm
 1 10 1
 100 200 1
 201 210 1

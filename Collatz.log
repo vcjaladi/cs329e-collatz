@@ -1,0 +1,89 @@
+commit fbcc253a6febe852e2a88ba02251b1f33ae029c1
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Mon Jan 30 23:37:42 2017 -0600
+
+    Added newline to end of runcollatz.in and .out
+
+commit 4bde58aae37843c9feb77c6932e59a3083d58799
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Mon Jan 30 23:35:35 2017 -0600
+
+    Added acceptance tests
+
+commit 338f0440751eb37896f43aff2c0be4a4bb257e34
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Mon Jan 30 23:11:20 2017 -0600
+
+    Cache implementation
+
+commit 47e9e5f062bdcce49004a9fc11b41cb1e8b0fad6
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 18:18:44 2017 -0600
+
+    Updated optimization and an added test case for case where i > j
+
+commit d9c801bbfa3818b7b149414f514ab6a87d9720cf
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 17:31:06 2017 -0600
+
+    Removing folder created by pycharm
+
+commit ec415db090d4be8e4b078c864e56989a80b1506c
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 17:28:18 2017 -0600
+
+    Didn't add gitignore on the last commit, fixing it in this one
+
+commit 32019ad3a88c334aa390b6fea46c82fa5e11daa4
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 17:26:51 2017 -0600
+
+    Created SphereCollatz.py and created a .gitignore file
+
+commit 3ae566aae70fb16a08844b06e849e5645c742b51
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 17:20:12 2017 -0600
+
+    Added assert statements to collatz_eval
+
+commit 28ed8d1420ca0bddf76e6475230d66db06444cb7
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 17:13:34 2017 -0600
+
+    Added more unit tests
+
+commit b878b72f59c03e8387c12e09a79f8640c0fb9948
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 16:40:41 2017 -0600
+
+    fixed collatz.out
+
+commit 00581c431da9936b81cab6aeff3836a53d1b42ef
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 16:18:22 2017 -0600
+
+    Fixed a problem in the updated test cases
+
+commit 21b7988349812bebcbca939cdebc8f4b4413a027
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 16:14:13 2017 -0600
+
+    Updated test case values
+
+commit 2db84750512ef7dac7d8a24bdb2b0ae4137f91e2
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 16:11:20 2017 -0600
+
+    Updated collatz_eval function, added code to return max cycle length
+
+commit 7f998059df48dfdbc0786d21a86718c9b302e763
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Sun Jan 29 14:23:46 2017 -0600
+
+    Initial files including travis yml
+
+commit ecaebb04de9eebabee1f5ca332a9e7e607c0fa0b
+Author: vcjaladi <vcjaladi@utexas.edu>
+Date:   Wed Jan 25 17:43:13 2017 -0600
+
+    Initial commit
