@@ -37,7 +37,7 @@ def collatz_eval(i, j):
     if j < i:
         temp = i
         i = j
-        j = tempc
+        j = temp
 
     max_cycle = 0
     cache = {}
