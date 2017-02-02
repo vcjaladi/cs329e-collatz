@@ -1,3 +1,27 @@
+commit 02ddc546b700f6198bb6eed7f9b7d1526bf57481
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Tue Jan 31 16:31:52 2017 -0600
+
+    updated .gitignore
+
+commit fadbf11eae02b699f29dcff856b1f7765b6b8883
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Tue Jan 31 16:28:42 2017 -0600
+
+    updated gitignore to remove spherecollatz as per piazza post
+
+commit 0b774e6ff8b78375541dd7663cd7b1a8a732fc1a
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Tue Jan 31 00:07:50 2017 -0600
+
+    Fixed problem created by autopep8
+
+commit c1eb027a940f4b9062317d15faa2d35b2cdbd49a
+Author: vcjaladi <vcjaladi@gmail.com>
+Date:   Tue Jan 31 00:01:59 2017 -0600
+
+    Adding log files
+
 commit fbcc253a6febe852e2a88ba02251b1f33ae029c1
 Author: vcjaladi <vcjaladi@gmail.com>
 Date:   Mon Jan 30 23:37:42 2017 -0600
